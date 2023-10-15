@@ -1,0 +1,12 @@
+.navbar-nav .nav-link {
+    color: white;
+}
+.navbar-brand {
+    color: white;
+}
+.nav-item .disabled {
+    color: grey;
+}
+.dropdown-item {
+    color: black; 
+}
