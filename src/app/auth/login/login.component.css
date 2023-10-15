@@ -1,0 +1,43 @@
+/* Esto centra el formulario en la página */
+.centered-div {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;  /* O el ancho que prefieras */
+  background-color: #ffffff;  /* O el color de fondo que prefieras */
+  padding: 20px;
+  border-radius: 8px;  /* O el radio de borde que prefieras */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  /* O la sombra que prefieras */
+}
+
+/* Esto estiliza los elementos dentro del formulario */
+.centered-div .mb-3 {
+  margin-bottom: 1rem;  /* O el margen que prefieras */
+}
+
+.centered-div .form-label {
+  font-weight: bold;  /* O el peso de fuente que prefieras */
+}
+
+.centered-div .form-control {
+  width: 100%;  /* Esto hace que el control de formulario ocupe todo el ancho disponible */
+  padding: 10px;
+  border-radius: 4px;  /* O el radio de borde que prefieras */
+  border: 1px solid #ccc;  /* O el color de borde que prefieras */
+}
+
+/* Esto estiliza el botón de envío */
+.centered-div .btn-primary {
+  background-color: #007bff;  /* O el color de fondo que prefieras */
+  border-color: #007bff;  /* O el color de borde que prefieras */
+  color: #ffffff;  /* O el color que prefieras */
+  padding: 10px 20px;
+  border-radius: 4px;  /* O el radio de borde que prefieras */
+  cursor: pointer;
+}
+
+.centered-div .btn-primary:hover {
+  background-color: #0056b3;  /* O el color de fondo que prefieras */
+  border-color: #0056b3;  /* O el color de bordes que prefieras */
+}
