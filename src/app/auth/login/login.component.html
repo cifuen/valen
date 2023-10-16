@@ -1,10 +1,10 @@
-<form class="centered-div" [formGroup]="form" (ngSubmit)="pasa()">
-  <div class="mb-3">
-    <label class="form-label">Contraseña</label>
-    <p>contraseña: {{token}}</p>
-    <input formControlName="password" type="password" class="form-control" />
-  </div>
-  <button type="submit" class="btn btn-primary">Entrar</button>
-</form>
-
-
+<body>
+  <form class="centered-div" [formGroup]="form" (ngSubmit)="pasa()" netlify name="login">
+    <div class="mb-3">
+      <label class="form-label">Contraseña</label>
+      <p>contraseña: {{token}}</p>
+      <input formControlName="password" type="password" class="form-control" name="password" />
+    </div>
+    <button type="submit" class="btn btn-primary">Entrar</button>
+  </form>  
+</body>
